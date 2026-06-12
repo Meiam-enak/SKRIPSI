@@ -26,12 +26,12 @@ warnings.filterwarnings("ignore")
 # ==========================================
 class Config:
     # ✅ URL DIARAHKAN KE MULUT SERVER (API_INPUT.PHP)
-    WEB_APP_URL = "http://ujiberkalabypassuppkb.com/api_input.php" 
+    WEB_APP_URL = "***" 
     
-    # ✅ PASSWORD RAHASIA AGAR TIDAK DIHACK (Sesuai dengan di cPanel)
-    API_KEY = "BALONGGANDU_SECURE_2026"
+    # ✅ PASSWORD AGAR TIDAK DIHACK (Sesuai dengan di cPanel)
+    API_KEY = "***"
     
-    # ✅ PATH VIDEO (Pastikan Drive D: dan filenya ada)
+    # ✅ PATH VIDEO (Drive D: filenya ada)
     VIDEO_SOURCE = r"D:\hfh\UPPKB_BALONGGANDU-27.10.2025-15.34.00.mp4"
     
     # 🔥 3 MODEL YOLO 🔥
