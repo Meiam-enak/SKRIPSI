@@ -7,7 +7,7 @@ header('Content-Type: application/json');
 
 // 2. CEK KEAMANAN (API KEY)
 // Ini agar tidak ada hacker yang bisa mengirim data palsu ke web Anda
-$api_key_server = "BALONGGANDU_SECURE_2026";
+$api_key_server = "***";
 $api_key_client = isset($_POST['api_key']) ? $_POST['api_key'] : '';
 
 if ($api_key_client !== $api_key_server) {
