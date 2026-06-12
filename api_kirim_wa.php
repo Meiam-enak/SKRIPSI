@@ -16,7 +16,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $plat_nomor = isset($_POST['plat_nomor']) ? $_POST['plat_nomor'] : 'TIDAK_DIKETAHUI'; 
     
     // TOKEN FONNTE AMAN DI SINI
-    $tokenFonnte = "mhBaUQyeBJ3quTqPDLMw"; 
+    $tokenFonnte = "***"; 
 
     // 2. EKSEKUSI API FONNTE
     $curl = curl_init();
