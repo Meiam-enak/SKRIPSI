@@ -26,10 +26,10 @@ warnings.filterwarnings("ignore")
 # ==========================================
 class Config:
     # ✅ URL DIARAHKAN KE MULUT SERVER (API_INPUT.PHP)
-    WEB_APP_URL = "http://ujiberkalabypassuppkb.com/api_input.php" 
+    WEB_APP_URL = "***" 
     
     # ✅ PASSWORD RAHASIA AGAR TIDAK DIHACK (Sesuai dengan di cPanel)
-    API_KEY = "BALONGGANDU_SECURE_2026"
+    API_KEY = "***"
     
     # ✅ TAMBAHAN: NAMA DEVICE AGAR MASUK KE FILTER "Kamera Simulasi Miniatur" DI WEB
     DEVICE_NAME = "Kamera Simulasi Miniatur"
